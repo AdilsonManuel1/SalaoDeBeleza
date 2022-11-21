@@ -20,6 +20,8 @@
         {
              preco = preco * quantidade;
             valorAPagarProduto = (preco - (preco * 0.10)); 
+        }else{
+            valorAPagarProduto = preco *quantidade;
         }
         return valorAPagarProduto;
     }

@@ -18,6 +18,8 @@
         {
             preco = preco *quantidade;
             valorAPagarServico = (preco -(preco * 0.10)); 
+        }else{
+            valorAPagarServico = preco *quantidade;
         }
         return valorAPagarServico;
     }
